@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="form-content">
+
+        <h2>Enviar formulario</h2>
+
+        <form action="https://formsubmit.co/mrodrigguez8@gmail.com" method="POST"> <!--API para enviar correos de formularios-->
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">Escribe tu correo electronico aqui</label>
+            <input type="email" name="email" id="email">
+
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" id="subject">
+
+            <label for="coments">Escribre tu solicitud aqui</label>
+            <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+
+            <input class="btn" type="submit" value="Enviar">
+
+        </form>
+
+    </div>
+
+
+</body>
+</html>
